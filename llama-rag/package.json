@@ -1,0 +1,36 @@
+{
+  "name": "rag-fs",
+  "version": "1.0.0",
+  "description": "UI query tool with RAG on the backend built using llama index ",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandeshSomashekar/llama-rag.git"
+  },
+  "keywords": [
+    "rag",
+    "llama",
+    "react",
+    "nodejs"
+  ],
+  "author": "Sandesh Somashekar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SandeshSomashekar/llama-rag/issues"
+  },
+  "homepage": "https://github.com/SandeshSomashekar/llama-rag#readme",
+  "type": "module",
+  "dependencies": {
+    "@std/async": "npm:@jsr/std__async@^1.0.9",
+    "@std/collections": "npm:@jsr/std__collections@^1.0.9",
+    "@std/dotenv": "npm:@jsr/std__dotenv@^0.225.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "llamaindex": "^0.8.30",
+    "nodemon": "^3.1.9"
+  }
+}
